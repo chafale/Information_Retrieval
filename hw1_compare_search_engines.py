@@ -6,6 +6,9 @@ Homework Assignment 1
 @uscid : 1990624801
 """
 import json
+import pandas as pd
+from IPython.display import display
+
 
 # load Google_Result1 data
 with open("Google_Result1.json", "r") as google_result:
@@ -63,7 +66,7 @@ def compare_search_results(dict1, dict2):
 if __name__ == '__main__':
     output = []
 
-    for query in queries:
+    for q_idx, query in enumerate(queries):
         goog_query_dict = {}
         bing_query_dict = {}
         for rank, res in enumerate(google_results[query]):
@@ -74,7 +77,7 @@ if __name__ == '__main__':
         # calculate overlap
         overlap_val, overlap_percentage, correlation_val = compare_search_results(goog_query_dict, bing_query_dict)
 
-        output.append([query, overlap_val, overlap_percentage, correlation_val])
+        output.append(["Query " + str(q_idx + 1), overlap_val, overlap_percentage, correlation_val])
 
     # calculate the averages in the end
 
@@ -93,6 +96,9 @@ if __name__ == '__main__':
 
     output.append(["Averages", overlap_avg, overlap_percentage_avg, correlation_avg])
 
-    # printing output
     for op in output:
-        print(op[1:])
+        print(op)
+
+    output_df = pd.DataFrame(output, columns=["Queries", "Number of Overlapping Results",
+                                              "Percent Overlap", "Spearman Coefficient"])
+    output_df.to_csv("hw1.csv", sep=",", encoding='utf-8', index=False)
