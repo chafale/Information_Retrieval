@@ -55,9 +55,9 @@ if __name__ == '__main__':
     # Code to generate Bing_Result1.json
     query_dict = dict()
     with open("100QueriesSet1.txt", "r") as query_file:
-        queries = query_file.readlines()
+        queries = list(map(lambda x: x.strip(), query_file.readlines()))
         for query in queries:
-            query_dict[query] = SearchEngine.search(query, sleep=False)
+            query_dict[query] = SearchEngine.search(query)
 
     with open("Bing_Result1.json", "w") as bing_json:
         json.dump(query_dict, bing_json)
