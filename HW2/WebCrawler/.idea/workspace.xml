@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72b19da4-5fc8-442a-9f0a-af05a10f1b0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_stats/fetch_wsj.csv" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_stats/fetch_wsj.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_stats/urls_wsj.csv" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_stats/urls_wsj.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler_stats/visit_wsj.csv" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_stats/visit_wsj.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicCrawler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,7 @@
       <updated>1677833014661</updated>
       <workItem from="1677833016249" duration="1774000" />
       <workItem from="1677834817699" duration="12150000" />
-      <workItem from="1677970441188" duration="4596000" />
+      <workItem from="1677970441188" duration="4986000" />
     </task>
     <servers />
   </component>

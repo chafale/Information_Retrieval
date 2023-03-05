@@ -13,20 +13,20 @@ public class BasicCrawler extends WebCrawler {
                     "|mpg|ram|m4v|wma|wmv|mid|txt|mp2|mp3|mp4|zip|rar|gz|exe|ico))$");
 
     private String fetch_task = "";
-    private String visited_task = "";
+    private String visit_task = "";
     private String urls_task = "";
-    private final HashSet<String> visited = new HashSet<>();
+    private final HashSet<String> hashSet = new HashSet<>();
 
     @Override
     public Object getMyLocalData() {
-        return new String[]{fetch_task, visited_task, urls_task};
+        return new String[]{fetch_task, visit_task, urls_task};
     }
 
     @Override
     protected void handlePageStatusCode(WebURL webUrl, int statusCode, String statusDescription) {
         String url = webUrl.getURL().toLowerCase().replaceAll(",", "_");
         fetch_task += url + "," + statusCode + "\n";
-        visited.add(url);
+        hashSet.add(url);
     }
 
     @Override
@@ -39,7 +39,7 @@ public class BasicCrawler extends WebCrawler {
         else {
             urls_task += href + ",N_OK\n";
         }
-        boolean hasNotSeen = !visited.contains(href);
+        boolean hasNotSeen = !hashSet.contains(href);
         return !FILTERS.matcher(href).matches() && isValid && hasNotSeen;
     }
 
@@ -65,6 +65,6 @@ public class BasicCrawler extends WebCrawler {
             numberOfOutLinks += links.size();
         }
 
-        visited_task += url + "," + fileSize + "," + numberOfOutLinks + "," + contentType + "\n";
+        visit_task += url + "," + fileSize + "," + numberOfOutLinks + "," + contentType + "\n";
     }
 }
