@@ -52,7 +52,7 @@ class SearchEngine:
 
 
 if __name__ == '__main__':
-    # Code to generate Bing_Result1.json
+    # Code to generate hw1.json
     query_dict = dict()
     with open("100QueriesSet1.txt", "r") as query_file:
         queries = list(map(lambda x: x.strip(), query_file.readlines()))
