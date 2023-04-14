@@ -1,0 +1,10 @@
+[{"rank":5, "name":"USC"},
+{"rank":2, "name":"UCLA"},
+{"rank":1, "name":"Caltech"},
+{"rank":1, "name":"Stanford"},
+{"rank":3, "name":"MIT"},
+{"rank":2, "name":"CMU"},
+{"rank":5, "name":"NYU"},
+{"rank":3, "name":"Georgia Tech"},
+{"rank":4, "name":"Texas Austin"},
+{"rank":2, "name":"UCB"}]
