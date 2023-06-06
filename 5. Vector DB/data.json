@@ -1,0 +1,52 @@
+[
+    {
+        "Author": "Eric Evans",
+        "Book": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+        "Summary": "This book provides an in-depth guide to domain-driven design, including best practices for modeling complex systems and organizing code."
+    },
+    {
+        "Author": "Robert C. Martin",
+        "Book": "Clean Code: A Handbook of Agile Software Craftsmanship",
+        "Summary": "This book covers best practices for writing clean, maintainable code, including tips for naming, commenting, and organizing code."
+    },
+    {
+        "Author": "Brian Goetz, Joshua Bloch",
+        "Book": "Java Concurrency in Practice",
+        "Summary": "This book is a comprehensive guide to Java concurrency, covering topics such as thread safety, synchronization, and deadlock prevention."
+    },
+    {
+        "Author": "Jake VanderPlas",
+        "Book": "Python Data Science Handbook",
+        "Summary": "This book is a practical guide to data science in Python, covering topics such as NumPy, Pandas, Matplotlib, and machine learning."
+    },
+    {
+        "Author": "Joel Grus",
+        "Book": "Data Science from Scratch: First Principles with Python",
+        "Summary": "This book is a beginner-friendly introduction to data science in Python, covering topics such as linear algebra, probability, and machine learning."
+    },
+    {
+        "Author": "Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin",
+        "Book": "Learning from Data: A Short Course",
+        "Summary": "This book provides a concise introduction to machine learning, covering topics such as decision trees, neural networks, and support vector machines."
+    },
+    {
+        "Author": "Sebastian Raschka, Vahid Mirjalili",
+        "Book": "Python Machine Learning",
+        "Summary": "This book is a comprehensive guide to machine learning in Python, covering topics such as scikit-learn, TensorFlow, and Keras."
+    },
+    {
+        "Author": "Andrew Ng",
+        "Book": "Machine Learning Yearning",
+        "Summary": "This book provides practical advice for building and deploying machine learning systems, including tips for project scoping, data preparation, and evaluation."
+    },
+    {
+        "Author": "Russell Jurney",
+        "Book": "Agile Data Science 2.0",
+        "Summary": "This book is a practical guide to agile data science, covering topics such as Hadoop, Spark, and NoSQL databases."
+    },
+    {
+        "Author": "Al Sweigart",
+        "Book": "Automate the Boring Stuff with Python",
+        "Summary": "This book is a beginner-friendly introduction to Python programming, covering topics such as basic syntax, file I/O, and web scraping."
+    }
+]

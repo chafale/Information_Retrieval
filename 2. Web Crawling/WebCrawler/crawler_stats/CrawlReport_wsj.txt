@@ -1,0 +1,45 @@
+Name: Ashwin Chafale
+USC ID: 1990624801
+News site crawled: wsj.com
+Number of threads: 16
+
+Fetch Statistics:
+================
+# fetches attempted: 19996
+# fetches succeeded: 17965
+# fetches failed or aborted: 2031
+
+Outgoing URLs:
+==============
+Total URLs extracted: 5236176
+# unique URLs extracted: 1650885
+# unique URLs within News Site: 176178
+# unique URLs outside News Site: 1474707
+
+Status Codes:
+=============
+200 OK: 17965
+301 Moved Permanently: 1333
+302 Found: 18
+307 Temporary Redirect: 125
+308 Permanent Redirect: 1
+400 Bad Request: 2
+403 Forbidden: 3
+404 Not Found: 197
+500 Internal Server Error: 333
+503 Service Unavailable: 2
+504 Gateway Timeout: 17
+
+File Sizes:
+===========
+< 1KB: 1
+1KB ~ <10KB: 167
+10KB ~ <100KB: 77
+100KB ~ <1MB: 16937
+>= 1MB: 762
+
+Content Types:
+==============
+image/jpeg: 12
+image/png: 186
+text/html: 17746

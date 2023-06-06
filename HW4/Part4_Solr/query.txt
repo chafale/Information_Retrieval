@@ -1,3 +1,0 @@
-http://localhost:8983/solr/my_core/select?indent=true&q=name:USC
-
-http://localhost:8983/solr/my_core/select?indent=true&q=rank:[2 TO 4]
